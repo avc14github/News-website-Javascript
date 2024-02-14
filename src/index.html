@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>News App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <nav>
+      <div class="main-nav container flex">
+        <a href="#" class="company-logo">
+          <img src="News.jpg" alt="News logo" />
+        </a>
+        <div class="nav-links">
+          <ul class="flex">
+            <li class="hover-link nav-item">IPL</li>
+            <li class="hover-link nav-item">Finance</li>
+            <li class="hover-link nav-item">Politics</li>
+          </ul>
+        </div>
+        <div class="search-bar flex">
+          <input type="text" class="news-input" placeholder="e.g. science" />
+          <button class="search-button">Search</button>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <div class="cards-container container flex"></div>
+    </main>
+
+    <template id="template-news-card">
+      <div class="card">
+        <div class="card-header">
+          <img src="News.jpg" alt="news-image" id="news-img" />
+        </div>
+        <div class="card-content">
+          <h3 id="new-title">This is title</h3>
+          <h6 class="news-source" id="news-source">End Gadget 28/06/22</h6>
+          <p class="news-desc" id="news-desc">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum
+            voluptates esse, libero fugit voluptatum officiis distinctio debitis
+            cupiditate, amet rerum animi unde laudantium tempore ratione nobis?
+            Molestiae atque est nulla.
+          </p>
+        </div>
+      </div>
+    </template>
+
+    <script src="script.js"></script>
+  </body>
+</html>
