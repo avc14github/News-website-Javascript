@@ -1,3 +1,3 @@
-# New-website-Javascript
+# News-website-Javascript
 
 ## Javascript project
